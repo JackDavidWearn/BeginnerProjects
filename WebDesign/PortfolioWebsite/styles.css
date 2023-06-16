@@ -1,9 +1,14 @@
 .navbar {
-    background-color: #fca311 !important;
+    background-color: #116bfc !important;
 }
 
 .navbar-brand {
     padding-left: 5% !important;
+    color: #ffffff;
+}
+
+.navbar-brand:hover {
+    color: #ff0000;
 }
 
 .navbar-collapse {
@@ -11,12 +16,12 @@
 }
 
 .nav-link .btn {
-    background-color: #fca311 !important;
+    background-color: #116bfc !important;
 }
 
 .btn:hover {
-    color: #fca311 !important;
-    background-color: white !important;
+    color: #5894f5 !important;
+    background-color: #ffffff !important;
 }
 
 .nav-link {
@@ -24,8 +29,8 @@
 }
 
 .dropdown {
-    border-right: 1px solid #e5930f !important;
-    border-left: 1px solid #e5930f !important;
+    border-right: 1px solid #116bfc !important;
+    border-left: 1px solid #116bfc !important;
 }
 
 .dropdown-toggle::after {
@@ -41,4 +46,117 @@
 
 .dropdown-toggle[aria-expanded="true"]::after {
     transform: rotate(180deg);
+}
+
+.hero-container {
+    background-image: url("ilya-pavlov-OqtafYT5kTw-unsplash.jpg");
+    background-size: cover;
+    background-position: bottom;
+    /* padding: 100px 0; */
+    color: #14213d;
+    text-align: left;
+    display: flex !important;
+    align-items: center;
+}
+
+.hero-container h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.hero-container p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero-container .btn {
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: white;
+}
+
+.hero-container .post-job-btn {
+    background-color: #116bfc !important;
+    border-color: #116bfc !important;
+}
+
+.hero-container .post-job-btn:hover {
+    background-color: #ffffff !important;
+    border-color: #116bfc !important;
+    color: #116bfc !important;
+}
+
+.hero-container .agent-sign-up-button {
+    color: #116bfc !important;
+    border-color: white !important;
+    background-color: rgba(255, 255, 255, 0.90) !important;
+}
+
+.hero-container .agent-sign-up-button:hover {
+    color: #116bfc !important;
+    border-color: #116bfc !important;
+    background-color: rgba(255, 255, 255, 0.90) !important;
+}
+
+.container-hero-section {
+    background-color: rgba(229, 229, 229, 0.9) !important;
+    flex: 1 !important;
+    padding: 50px !important;
+}
+
+.text-hero-section::after {
+    width: 100px;
+    height: 5px;
+    content: ' ';
+    display: block;
+    margin: 0.5px 0px 1px 0px;
+    background-color: #116bfc;
+}
+
+.container-hero-section-half {
+    flex: 0 0 50%;
+    padding: 50px;
+}
+
+.hire-section {
+    background-color: #ffffff !important;
+    color: #116bfc;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.card {
+    background-color: #ffffff;
+    border-color: #116bfc;
+}
+
+.card-title {
+    color: #e5e5e5;
+}
+
+.card-text {
+    color: #e5e5e5;
+}
+
+.howitworks-btn {
+    padding-top: 50px;
+}
+
+.card-img-top {
+    size: 50%;
+}
+
+.howworks-btn {
+    background-color: #116bfc;
+    border-color: #116bfc;
+}
+
+.howworks-btn:hover {
+    background-color: #5894f5 !important;
+    border-color: #5894f5 !important;
+    color: white !important;
 }

@@ -1,0 +1,12 @@
+Simple to use monthly expense manager
+Keeps a track of the expenses made by the user
+Make a note of the date, the item on which expenditure is done, and the cost of related expenses
+Users can enter a budget for every month
+Every time, when a user makes a new entry, the budget is checked, and a message is shown if expenses made exceeds the budget set by the user
+Users can enter a date and view all the entries made on that specific date
+User can enter a month to view all the expenses done on the specific month
+Users can get the expenses details made from the time, the budget has been reset
+Users can easily delete a particular month’s log report
+The system is password protected and the user is asked for a password before he can add/create entries
+User can change their password, and verification is used so the password is changed if the old password is entered correctly
+(NOTE- Always start with the password.txt file to ensure the program works correctly)

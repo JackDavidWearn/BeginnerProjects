@@ -1,0 +1,26 @@
+.navbar {
+    background-color: #fca311 !important;
+}
+
+.navbar-brand {
+    padding-left: 5% !important;
+}
+
+.navbar-collapse {
+    padding-right: 15% !important;
+}
+
+.nav-link .btn {
+    background-color: #fca311 !important;
+}
+
+.btn:hover {
+    color: #fca311 !important;
+    background-color: white !important;
+}
+
+.nav-link {
+    color: white !important;
+    border-right: 2px solid #e5930f;
+    border-left: 1px solid #e5930f;
+}
